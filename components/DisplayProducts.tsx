@@ -11,7 +11,8 @@ import { cn } from "@/lib/utils";
 const DisplayProducts = ({ products }: { products: any }) => {
   let productGroups = products?.data?.groups;
 
-  // console.log(productGroups);
+  console.log(productGroups);
+  console.log(process.env.SELLIX_API_KEY)
 
   const getProductFeatures = (productFields: []) => {
     let features = [] as any;

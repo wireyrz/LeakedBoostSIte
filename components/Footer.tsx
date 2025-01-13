@@ -15,14 +15,14 @@ const Footer = () => {
           <Link href="/">
             <div className="flex flex-row items-center gap-1">
               <Image src="/logo.png" alt="Robolox" width={40} height={40} />
-              <span className="text-xl font-bold PoseidonFont">Cosmic Boosts</span>
+              <span className="text-xl font-bold PoseidonFont">Vicus Sparx</span>
             </div>
           </Link>
           <div className="max-w-[550px] text-sm text-brandGray">
-            {`Cosmic Boosts is a Discord shop that sells high-quality Discord boosts, tools, and more. We offer a wide range of services to help you grow your community.`}
+            {`Vicus Sparx is a merchant who sells digital tools to automate homework processes using state of the art LLM'S`}
           </div>
           <div className="text-sm font-semibold brand_gradient text-transparent bg-clip-text text-brand">
-            {`Cosmic Boosts is not affiliated or endorsed by Discord in any way.`}
+            {`Vicus Sparx is not affiliated or endorsed by Sparx Maths in any way.`}
           </div>
           <div className="mt-3 flex flex-row items-center gap-2">
             <Link href={LINKS?.DISCORD} target="_blank">
@@ -70,16 +70,16 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="middle flex flex-row items-center justify-between px-4 pb-6 pt-2 xl:px-0">
         <div className="text-sm text-muted-foreground">
-          &copy; Cosmic Boosts 2024
+          &copy; Vicus Sparx 2024
         </div>
-        <Link href="https://discord.com/users/734067467848253520" target="_blank">
+        <Link href="https://discord.gg/sparx" target="_blank">
           <div className="flex cursor-pointer flex-col rounded-md px-2 py-2">
             <div className="relative z-10 text-[11px] leading-[14px]">
               Developed By
             </div>
             <div className="relative font-bold leading-[16px] text-[#ec3d6f]">
               <div className="absolute left-0 top-0 h-full w-full bg-[#ec3d6f] opacity-70 blur-lg" />
-              <div className="relative z-10">{`Choppa`}</div>
+              <div className="relative z-10">{`Vicus Sparx`}</div>
             </div>
           </div>
         </Link>

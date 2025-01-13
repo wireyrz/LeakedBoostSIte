@@ -9,11 +9,13 @@ import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import TopNotification from "@/components/TopNotification";
 import Image from "next/image";
+import CrispChat from "@/components/newCrisp";
 
 export default function Home() {
   return (
+    
     <>
-      <CrispApp />
+      
       <TopNotification />
       <Header />
       <Hero />

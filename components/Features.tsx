@@ -16,42 +16,42 @@ import RevealAnimation from "./framer/RevealAnimation";
 
 const FeaturesData = [
   {
-    icon: <HandCoinsIcon size={30} className="text-[#e43f81]" />,
+    icon: <HandCoinsIcon size={30} className="text-[#0059ff]" />,
     textColor: "text-white",
     title: "Seamless Payment",
     description:
       "Ordering from us is a breeze. We accept all major cryptocurrencies, Cash App, PayPal, Venmo, cards, and gift cards for your convenience.",
   },
   {
-    icon: <GemIcon size={30} className="text-[#e43f81]" />,
+    icon: <GemIcon size={30} className="text-[#0059ff]" />,
     textColor: "text-white",
     title: "Cheap Prices",
     description:
       "Our ultimate motto is to ensure that everyone, regardless of their location, can access high-quality services at an affordable price.",
   },
   {
-    icon: <BookCheckIcon size={30} className="text-[#e43f81]" />,
+    icon: <BookCheckIcon size={30} className="text-[#0059ff]" />,
     textColor: "text-white",
     title: "Trusted & Reputated Seller",
     description:
       "Our customers consistently provide positive feedback, praising not only our top-tier services but also our premium support.",
   },
   {
-    icon: <ScaleIcon size={30} className="text-[#e43f81]" />,
+    icon: <ScaleIcon size={30} className="text-[#0059ff]" />,
     textColor: "text-white",
     title: "Legal Methods",
     description:
       "Rest assured, every service we offer is acquired through entirely legal channels, ensuring you peace of mind without concerns about reversals.",
   },
   {
-    icon: <MessageCircleMoreIcon size={30} className="text-[#e43f81]" />,
+    icon: <MessageCircleMoreIcon size={30} className="text-[#0059ff]" />,
     textColor: "text-white",
     title: "24/7 Support",
     description:
       "Our unmatched chat support is available 24/7, ready to address any questions or concerns you may have, every single day.",
   },
   {
-    icon: <WorkflowIcon size={30} className="text-[#e43f81]" />,
+    icon: <WorkflowIcon size={30} className="text-[#0059ff]" />,
     textColor: "text-white",
     title: "Automatic Delivery",
     description:
@@ -78,7 +78,7 @@ const Features = () => {
       <div className="middle flex items-center flex-col">
         <RevealAnimation screenReveal>
           <div className="flex flex-row items-center gap-2 text-sm text-transparent bg-clip-text brand_gradient">
-            <SunMoonIcon size={16} className="text-[#e43f81]" />
+            <SunMoonIcon size={16} className="text-[#0059ff]" />
             <div className="font-semibold">We Have Exciting Features</div>
           </div>
         </RevealAnimation>
@@ -118,10 +118,10 @@ const Features = () => {
                   ? "sm:col-span-1 md:col-span-2 lg:col-span-1"
                   : "",
                 "relative flex flex-col items-start p-8 rounded-lg bg-[#0f0f0f] transition-all ease-linear",
-                "hover:bg-transparent hover:border-pink-500 hover:border-l-4 hover:shadow-lg"
+                "hover:bg-transparent hover:border-blue-500 hover:border-l-4 hover:shadow-lg"
               )}
             >
-              <div className="p-3 rounded-full bg-[#e43f81]/10">
+              <div className="p-3 rounded-full bg-[#0059ff]/10">
                 {feature.icon}
               </div>
               <div

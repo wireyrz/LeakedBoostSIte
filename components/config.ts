@@ -1,12 +1,12 @@
 export const LINKS = {
-  DISCORD: "https://discord.gg/novex",
+  DISCORD: "https://discord.gg/sparx",
   TELEGRAM: "https://t.me/",
   TWITTER: "https://x.com",
 };
 
 export const NOTIFICATION = {
   showNotification: true,
-  notificationText: " Shop today and use code RELEASE10 for a 10% off!",
+  notificationText: "Releasing soon! 50% off for next month.",
   notificationLink: LINKS.DISCORD,
 };
 
@@ -17,7 +17,7 @@ export const LandingPageLinks = [
   },
   {
     name: "Reviews",
-    link: "https://novexx.mysellix.io/feedbacks",
+    link: "https://discord.gg/sparx",
   },
   {
     name: "Products",

@@ -25,12 +25,12 @@ const Aboutus = () => {
         <div className="lg:w-1/2 flex flex-col gap-8">
           <RevealAnimation screenReveal>
             <div className="font-semibold text-4xl text-white">
-              {`We're your top choice for Discord needs.`}
+              {`We're your top choice for Homework needs.`}
             </div>
           </RevealAnimation>
           <RevealAnimation screenReveal delay={0.2}>
             <div className="text-muted-foreground">
-              {`With over 24 months of experience, our server boosting service stands as the pinnacle of reliability, respect, and renown in the industry.`}
+              {`With over 2 years of experience and over 3 months of development our product will automate your homework under your supervision. We lead the industry with our security, processes and design, all in mind for the customer.`}
             </div>
           </RevealAnimation>
           <div className="flex flex-col gap-3">

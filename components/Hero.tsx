@@ -14,17 +14,13 @@ import { LINKS } from "./config";
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 // Import your Lottie animation data
-import DiscordNitroLottieAnimation from "@/assests/LOTTIE/discord-nitro-lottie.json";
+import sigma from "@/assests/LOTTIE/MATHS.json";
 
 const Hero = () => {
   return (
     <div className="px-4 pt-10 lg:pt-0">
       <div className="middle relative">
-        <RevealAnimation>
-          <div className="flip-horizontally absolute lg:left-[-20px] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:top-[140px] h-[140px] w-[140px]">
-            <Lottie animationData={DiscordNitroLottieAnimation} loop={true} />
-          </div>
-        </RevealAnimation>
+
         <div className="flex w-full flex-col items-center gap-4 py-24 lg:flex-row">
           {/* Left Container */}
           <div className="relative flex flex-col items-center gap-4 text-center lg:w-[60%] lg:items-start lg:text-start">
@@ -35,10 +31,10 @@ const Hero = () => {
                 <span>Automate Your</span>
               </RevealAnimation>
               <div className="flex flex-col md:flex-row items-center md:gap-4">
-                <RevealAnimation delay={0.4}>Discord </RevealAnimation>
+                <RevealAnimation delay={0.4}>Sparx </RevealAnimation>
                 <RevealAnimation className="inline-block" delay={0.6}>
                   <span className="discord-shadow brand_gradient bg-clip-text text-transparent">
-                    Server Boosts
+                   Homework
                   </span>
                 </RevealAnimation>
               </div>
@@ -48,7 +44,7 @@ const Hero = () => {
             </div>
             <RevealAnimation delay={1}>
               <div className="max-w-[550px] text-center text-muted-foreground sm:text-start">
-                {`Cosmic Boosts is the Fastest and Cheapest option  to buy high quality Server Boosts & Nitro. We offer the most budget and user friendly options to help you get the product you are looking for.`}
+                {`Vicus Sparx is the new way to do your homework, powered by OpenAI's new model and our process manager. Your homework can be automated with Vicus.`}
               </div>
             </RevealAnimation>
             <div className="mt-3 flex flex-row items-center gap-4">

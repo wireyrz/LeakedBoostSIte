@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: #0f0f0f;
+    --background: #000000;
     --foreground: 0 0% 98%;
 
     --card: 0 0% 3.9%;
@@ -58,7 +58,7 @@ body {
 }
 
 .brand_gradient {
-  @apply bg-gradient-to-tr from-[#ff4059] to-[#a73cde];
+  @apply bg-gradient-to-tr from-[#5ccbfa] to-[#0059ff];
 }
 
 .discord-shadow {

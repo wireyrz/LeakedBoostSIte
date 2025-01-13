@@ -14,7 +14,7 @@ const Terms = () => {
           </div>
           <div className="flex w-full flex-row items-center">
             <div className="h-[1px] w-full bg-muted-foreground/40"></div>
-            <div className="mx-2 min-w-max text-sm">{`Last Updated : 04-05-2024`}</div>
+            <div className="mx-2 min-w-max text-sm">{`Last Updated : 13-01-2025`}</div>
             <div className="h-[1px] w-[20px] bg-muted-foreground/40"></div>
           </div>
         </div>
@@ -36,42 +36,7 @@ const Terms = () => {
             {`Our services guarantee compliance with legal standards, ensuring that your usage does not entail any risk of bans. We affirm the legality of our offerings, completely free from glitches or hacks.`}
           </Points>
         </Container>
-        <Container>
-          <SubHeading>Server Boosting</SubHeading>
-          <Points>
-            {`Boosts labeled as '3 Month' will endure for a duration of 85-91 days, and those labeled as '1 Month' will endure for a duration of 25-31 days.`}
-          </Points>
-          <Points>
-            {`Be sure to disable any anti-raid system and/or bot prior to purchasing boosts, as it may kick the accounts.`}
-          </Points>
-          <Points>
-            {`If the boosting accounts are kicked/banned from a user and/or a bot, no refund/replacement will be issued.`}
-          </Points>
-          <Points>
-            {`We cannot transfer boosts from one server to another.`}
-          </Points>
-          <Points>
-            {`if Discord revokes the nitro from our Discord accounts and/or terminates them, we will not replace the boosts for you as it is out of our control.`}
-          </Points>
-        </Container>
-        <Container>
-          <SubHeading>Nitro Tokens</SubHeading>
-          <Points>
-            {`All tokens are checked for validity prior to restocking and therefore have no warranty for being invalid.`}
-          </Points>
-          <Points>
-            {`While we do check our tokens to confirm there is no captcha on them, we cannot guarantee them as no captcha, no one can.`}
-          </Points>
-          <Points>
-            {`Do not use leaked tools or manually login. These are used for boosting servers with a boost bot and/or boost tool. These are not to be used as a main account, they are not full access.`}
-          </Points>
-          <Points>
-            {`If Discord terms them, no replacements or refunds will be given. This is due to it being completely out of my control. However, we do used aged tokens in which is extremely rare for them to be terminated. Additionally, they have survived multiple term-waves.`}
-          </Points>
-          <Points>
-            {`Tokens labeled '1 Month' will have a duration of 25-31 days.`}
-          </Points>
-        </Container>
+        
 
         <Container>
           <SubHeading>Tools & Bots</SubHeading>

@@ -7,7 +7,7 @@ import { Crisp } from "crisp-sdk-web";
 const CrispApp = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
-      Crisp.configure(`3984329d-3c67-491c-adf0-bcc896d4d2fe`);
+      Crisp.configure(`91525ed5-034b-479d-9d57-791635921f3d`);
     }
   }, []);
 
